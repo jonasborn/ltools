@@ -12,7 +12,6 @@ if [[ ! -d ${TARGET_PATH} ]]; then
     chmod +x "makeself.sh"
     ./makeself.sh
     rm ./makeself.sh
-    exit
 fi
 
 ./makeself*/makeself.sh "$DIR/src" "ltools.sh" "born's linux tools" "./install.sh"
