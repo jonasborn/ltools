@@ -28,7 +28,7 @@ webs <dir> <port> | webs <port>
 Create a random file with specified size and name or size and hash as name
 Usage:
 ``` bash
-raf <SIZE>
+raf <SIZE> [<PATH>]
 ```
 Size example:
 1M, 1MiB, 123KB, 5GB
