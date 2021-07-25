@@ -16,3 +16,4 @@ fi
 
 ./makeself*/makeself.sh "$DIR/src" "ltools.sh" "born's linux tools" "./install.sh"
 
+rm -rf ./makeself*
